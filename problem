@@ -1,0 +1,2 @@
+解决了启动报错的问题
+    1、错误原因:WxMaProperties文件无法正确读取到配置文件中的属性，解决方式：将配置文件application.properties改为application.yml文件

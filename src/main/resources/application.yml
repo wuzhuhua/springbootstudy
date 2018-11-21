@@ -5,6 +5,8 @@ logging:
     org.springframework.web: info
     com.github.binarywang.demo.wx.miniapp: debug
     cn.binarywang.wx.miniapp: debug
+    org.spring.springboot: debug
+  file: classpath:log/server.log
 ##微信小程序配置
 wx:
   miniapp:
@@ -43,3 +45,4 @@ mybatis:
 server:
   address: 192.168.1.103
   port: 11115
+
