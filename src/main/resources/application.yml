@@ -6,7 +6,7 @@ logging:
     com.github.binarywang.demo.wx.miniapp: debug
     cn.binarywang.wx.miniapp: debug
     org.spring.springboot: debug
-  file: classpath:log/server.log
+  file: classpath:log/log
 ##微信小程序配置
 wx:
   miniapp:
@@ -20,8 +20,8 @@ spring:
 ##mysql数据源配置
   datasource:
     url: jdbc:mysql://localhost:3306/springbootdb?useUnicode=true&characterEncoding=utf8
-    data-username: root
-    data-password: 123456
+    username: root
+    password: 123456
     driver-class-name: com.mysql.jdbc.Driver
 ##redis数据源配置
   redis:
